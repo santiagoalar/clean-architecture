@@ -1,5 +1,7 @@
-package com.springboot.demo;
+package com.springboot.demo.controller;
 
+import com.springboot.demo.entity.Persona;
+import com.springboot.demo.service.InterfacePersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

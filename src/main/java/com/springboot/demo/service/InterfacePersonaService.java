@@ -1,4 +1,6 @@
-package com.springboot.demo;
+package com.springboot.demo.service;
+
+import com.springboot.demo.entity.Persona;
 
 import java.util.List;
 

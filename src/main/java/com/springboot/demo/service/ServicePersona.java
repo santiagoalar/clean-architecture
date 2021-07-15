@@ -1,12 +1,14 @@
-package com.springboot.demo;
+package com.springboot.demo.service;
 
+import com.springboot.demo.controller.InterfacePersona;
+import com.springboot.demo.entity.Persona;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ServicePersona implements InterfacePersonaService{
+public class ServicePersona implements InterfacePersonaService {
 
     @Autowired
     private InterfacePersona data;
